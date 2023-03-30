@@ -59,10 +59,15 @@ nav {
     }
 }
 
-.all_content .row {
+.all_content .row_blue {
     background-color: #1B72E8;
 }
 
 .pill_color {
     background-color: #165BBA;
+}
+
+table img {
+    width: 30px;
+    height: 30px;
 }
