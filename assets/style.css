@@ -1,0 +1,53 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: white;
+}
+
+.logo_small {
+    width: 50px;
+}
+
+.logo_big {
+    max-width: 100%;
+}
+
+.input-group-text {
+    border-right: none;
+}
+
+.form-control {
+    border-left: none;
+}
+
+.left_bar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 74px;
+    width: 68px;
+    background-color: red;
+}
+
+.all_content {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 68px;
+    z-index: 98;
+    background-color: blue;
+}
+
+@media (min-width: 992px) {
+    .left_bar {
+        width: 150px;
+    }
+
+    .all_content {
+        left: 150px;
+    }
+}
