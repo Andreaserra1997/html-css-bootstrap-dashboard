@@ -29,7 +29,9 @@ nav {
     bottom: 0;
     top: 74px;
     width: 68px;
-    background-color: red;
+    background-image: url(../img/sidebar-bg.png);
+    background-position: center;
+    background-color: #051E34;
 }
 
 .all_content {
