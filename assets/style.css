@@ -3,7 +3,7 @@ nav {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 99;
+    z-index: 1998;
     background-color: white;
 }
 
@@ -70,4 +70,8 @@ nav {
 table img {
     width: 30px;
     height: 30px;
+}
+
+.offcanvas {
+    z-index: 1999;
 }
