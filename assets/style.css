@@ -1,10 +1,20 @@
-nav {
-    /* position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1998;
-    background-color: white; */
+.left_bar {
+    width: 68px;
+    background-image: url(../img/sidebar-bg.png);
+    background-position: center;
+    background-color: #051E34;
+}
+
+.all_content {
+    width: 100%;
+    height: calc(100vh - 74px);
+    overflow-y: auto;
+}
+
+@media (min-width: 992px) {
+    .left_bar {
+        width: 150px;
+    }
 }
 
 .logo_small {
@@ -27,31 +37,12 @@ nav {
     color: #5B5858;
 }
 
-.left_bar {
-    width: 68px;
-    background-image: url(../img/sidebar-bg.png);
-    background-position: center;
-    background-color: #051E34;
-}
-
 .icon_hover:hover {
     cursor: pointer;
 }
 
 .icon_hover i {
     width: 25px;
-}
-
-.all_content {
-    width: 100%;
-    height: calc(100vh - 74px);
-    overflow-y: auto;
-}
-
-@media (min-width: 992px) {
-    .left_bar {
-        width: 150px;
-    }
 }
 
 .all_content .row_blue {
@@ -65,8 +56,4 @@ nav {
 table img {
     width: 30px;
     height: 30px;
-}
-
-.offcanvas {
-    z-index: 1999;
 }
